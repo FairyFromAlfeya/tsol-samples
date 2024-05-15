@@ -1,0 +1,4 @@
+import "./Virtual.tsol";
+import "./Impl.tsol";
+
+contract Main is Virtual, Impl {}

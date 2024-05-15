@@ -1,0 +1,8 @@
+{
+  "name": "tsol-samples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:FairyFromAlfeya/tsol-samples.git",
+  "author": "Alexander Kunekov <fairyfromalfeya@gmail.com>",
+  "license": "MIT"
+}

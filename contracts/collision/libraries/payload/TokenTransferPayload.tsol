@@ -1,0 +1,13 @@
+library TokenTransferPayload {
+    function decodePool(TvmCell _payload) public returns (OneOf) {
+        OneOf result;
+        return result;
+    }
+
+    struct OneOf {
+        optional(uint) a;
+        optional(uint) b;
+        optional(uint) c;
+        optional(uint) d;
+    }
+}

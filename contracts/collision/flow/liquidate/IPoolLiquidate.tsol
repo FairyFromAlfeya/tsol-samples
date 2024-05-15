@@ -1,0 +1,4 @@
+import "../../libraries/payload/GetPricesPayload.tsol";
+import "../../libraries/payload/TokenTransferPayload.tsol";
+
+interface IPoolLiquidate {}

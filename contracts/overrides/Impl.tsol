@@ -1,0 +1,11 @@
+abstract contract Impl {
+    // TODO: Why is never used? See: Virtual.tsol#3
+    function _deploy()
+        internal
+        override
+        view
+        returns (address)
+    {
+        return address(0);
+    }
+}

@@ -1,0 +1,8 @@
+import "./flow/liquidate/APoolLiquidate.tsol";
+
+contract LendingPool is APoolLiquidate {
+    function onAcceptTokensTransfer(TvmCell _payload) {
+        // TODO: can not choose structure
+        TokenTransferPayload.OneOf decoded = TokenTransferPayload.decodePool(_payload);
+    }
+}

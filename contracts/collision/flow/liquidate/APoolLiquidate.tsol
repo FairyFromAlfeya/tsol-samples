@@ -1,0 +1,3 @@
+import "./IPoolLiquidate.tsol";
+
+abstract contract APoolLiquidate is IPoolLiquidate {}

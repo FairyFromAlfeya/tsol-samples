@@ -1,0 +1,7 @@
+library GetPricesPayload {
+    struct OneOf {
+        optional(uint) a;
+        optional(uint) b;
+        optional(uint) c;
+    }
+}

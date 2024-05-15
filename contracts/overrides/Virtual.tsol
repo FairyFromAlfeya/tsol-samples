@@ -1,0 +1,11 @@
+abstract contract Virtual {
+    function deploy() external view {
+        _deploy();
+    }
+
+    function _deploy()
+        internal
+        virtual
+        view
+        returns (address);
+}
