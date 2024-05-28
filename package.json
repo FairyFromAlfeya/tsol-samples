@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:FairyFromAlfeya/tsol-samples.git",
   "author": "Alexander Kunekov <fairyfromalfeya@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@broxus/ever-contracts": "git://github.com/broxus/ever-contracts#1643b6b"
+  }
 }

@@ -1,0 +1,6 @@
+import "@broxus/ever-contracts/contracts/reservation/abstract/Reservable.tsol";
+
+contract Main is Reservable {
+    // TODO: fix 'reserveAcceptAndRefund' is undefined
+    constructor() reserveAcceptAndRefund(1 ever, msg.sender, msg.sender) {}
+}
